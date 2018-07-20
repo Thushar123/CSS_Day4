@@ -1,0 +1,265 @@
+
+nav {    
+  display: block;
+  text-align: center;
+  background-color: grey;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  }
+  .nav{  
+  vertical-align: top; 
+  display: inline-block;
+ }
+.nav li {
+  position: relative;
+  padding: 30px;
+}
+.nav > li { 
+  float: left; 
+  border-bottom: 4px #aaa solid; 
+  margin-right: 1px; 
+} 
+.nav > li > a { 
+  margin-bottom: 1px;
+  box-shadow: inset 0 2em .33em -0.5em lightgrey; 
+  padding: 10px;
+  color: orangered;
+  font-size: 20px;
+  text-decoration: none;
+}
+.nav > li:hover, 
+.nav > li:hover > a { 
+  border-bottom-color: orangered;
+}
+.nav li:hover > a { 
+  color:orange; 
+}
+.nav > li:first-child { 
+  border-radius: 4px 0 0 4px;
+} 
+.nav > li:first-child > a { 
+  border-radius: 14px 0 0 0;
+}
+.nav > li:last-child { 
+  border-radius: 0 0 4px 0; 
+  margin-right: 13px;
+} 
+.nav > li:last-child > a { 
+  border-radius: 0 14px 0 0;
+}
+i{
+	color: white;
+}
+.nav li li a { 
+  margin-top: 1px;
+}
+.nav li a:first-child:nth-last-child(2):before { 
+  position: absolute; 
+  height: 0; 
+  width: 0; 
+  border: 5px solid transparent; 
+  top: 50% ;
+  right:5px;  
+ }
+ /* submenu positioning*/
+.nav ul {
+  position: absolute;
+   white-space: nowrap;
+  border-bottom: 5px solid  orangered;
+  z-index: 1;
+  left: -99999em;
+}
+.nav > li:hover > ul {
+  left: auto;
+  margin-top: 15px;
+  min-width: 100%;
+}
+.nav > li li:hover > ul { 
+  left: 100%;
+  margin-left: 1px;
+  top: -1px;
+}
+.sticky1{
+	width: 1000px;
+	height: 65px;
+	background-color: black;
+	color: white;
+	position: sticky;
+	top: 0;
+}
+h1{
+	padding: 15px;
+	padding-left: 35px;
+}
+.sticky1-1{
+	width: 470px;
+	height: 250px;
+	float: left;
+	text-align: justify;
+	text-indent: 50px;
+	padding: 15px;
+
+}
+.hrdiv{
+	width: 1px;
+	height: 400px;
+	background-color: grey;
+	float: left;
+	margin-top: 15px;
+}
+.sticky1-2{
+	width: 470px;
+	height: 250px;
+	float: left;
+	margin-left: 15px;
+	padding-left: 5px;
+	text-align: justify;
+	text-indent: 50px;
+}
+.sticky2{
+	width: 1000px;
+	height: 65px;
+	background-color: black;
+	color: white;
+	margin-top: 460px;
+	position: sticky;
+	top: 67px;
+}
+.sticky2-1{
+	width: 470px;
+	height: 250px;
+	float: left;
+	text-align: justify;
+	text-indent: 50px;
+	padding: 15px;
+
+}
+.hrdiv{
+	width: 1px;
+	height: 400px;
+	background-color: grey;
+	float: left;
+	margin-top: 15px;
+}
+.sticky2-2{
+	width: 470px;
+	height: 250px;
+	float: left;
+	margin-left: 15px;
+	padding-left: 5px;
+	text-align: justify;
+	text-indent: 50px;
+}
+.sticky3{
+	width: 1000px;
+	height: 65px;
+	background-color: black;
+	color: white;
+	margin-top: 460px;
+	position: sticky;
+	top: 134px;
+}
+.sticky3-1{
+	width: 470px;
+	height: 250px;
+	float: left;
+	text-align: justify;
+	text-indent: 50px;
+	padding: 15px;
+
+}
+.hrdiv{
+	width: 1px;
+	height: 400px;
+	background-color: grey;
+	float: left;
+	margin-top: 15px;
+}
+.sticky3-2{
+	width: 470px;
+	height: 250px;
+	float: left;
+	margin-left: 15px;
+	padding-left: 5px;
+	text-align: justify;
+	text-indent: 50px;
+}
+.sticky4{
+	width: 1000px;
+	height: 65px;
+	background-color: black;
+	color: white;
+	margin-top: 460px;
+	position: sticky;
+	top: 200px;
+}
+.sticky4-1{
+	width: 470px;
+	height: 250px;
+	float: left;
+	text-align: justify;
+	text-indent: 50px;
+	padding: 15px;
+
+}
+.hrdiv{
+	width: 1px;
+	height: 400px;
+	background-color: grey;
+	float: left;
+	margin-top: 15px;
+}
+.sticky4-2{
+	width: 470px;
+	height: 250px;
+	float: left;
+	margin-left: 15px;
+	padding-left: 5px;
+	text-align: justify;
+	text-indent: 50px;
+}
+
+.Fixed1{
+	width: 300px;
+	height: 65px;
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 20px;
+	right: 20px;
+}
+.Fixed1-1{
+	width: 300px;
+	height: 65px;
+	position: fixed;
+	top: 82px;
+	right: 20px;
+}
+.Fixed2{
+
+	width: 300px;
+	height: 65px;
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 350px;
+	right: 20px;
+}
+.Fixed2-1{
+	width: 300px;
+	height: 65px;
+	position: fixed;
+	top: 400px;
+	right: 20px;
+}
+
+
+
+
+
+
+
+
